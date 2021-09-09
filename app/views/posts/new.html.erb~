@@ -1,0 +1,4 @@
+<div class="container">
+<h1>Creer un nouveau tweet</h1>
+<%= render 'form' %>
+</div>

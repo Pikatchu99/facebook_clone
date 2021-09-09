@@ -1,0 +1,13 @@
+<div class="container">
+  <article class="blog-post pb-5 pt-5">
+    <h3>Title: <%= @post.title %></h3>
+    <p class="ms-5 mt-5"><%= @post.content %></p>
+  </article>
+  <p>
+    <strong>Image:</strong>
+    <%= image_tag @post.image.url, :size => "500x300" %>
+  </p>
+  <p>
+    <a href="<%=posts_path%>" class="btn btn-primary">Back to list of article</a>
+  </p>
+</div>
