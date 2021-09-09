@@ -5,15 +5,18 @@
       --blue: #0367a6!important;
       --lightblue: #008997!important;
   }
+  body {
+  background-color: #2F3242;
+}
 </style>
-<div class="container-fluid" >
+<div class="container-fluid text-white" >
   <div class="text-center fs-1" style="font-family: 'ZCOOL KuaiLe';">Welcome to <span style="color: #007693;">FacebookClone</span></div>
   <div class="text-center fs-6" style="font-family: 'ZCOOL KuaiLe', cursive;">Made By Rails</div>
   <div class="d-grid gap-2 col-6 mx-auto" style="margin-top: 150px;">
-    <a class="btn" href="<%=new_session_path%>" style="background-color: #007693;">Se Connecter</a>
+    <a class="btn text-white" href="<%=new_session_path%>" style="background-color: #007693;">Se Connecter</a>
     <div class="text-center fs-4" style="color: #007693;">
       ou
     </div>
-    <a class="btn" href="<%= new_user_path %>" style="background-color: #007693;">S'inscrire</a>
+    <a class="btn text-white" href="<%= new_user_path %>" style="background-color: #007693;">S'inscrire</a>
   </div>
 </div>
